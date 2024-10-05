@@ -14,4 +14,4 @@
 <a href='https://intranet.alxswe.com/rltoken/2Q2LzNFokcUwpA2u3FKG6Q'>Js Promise. An intro</a>\
 <a href='https://intranet.alxswe.com/rltoken/UXb3S2PMBe-SLJ55isMcow'>Await</a>\
 <a href='https://intranet.alxswe.com/rltoken/_K0C7pgEjwaIzU9RpwCb8g'>Async</a>\
-<a href='https://intranet.alxswe.com/rltoken/UTjDgvKk5l892Xslh0vqcQ'>Throw/Try</a>\
+<a href='https://intranet.alxswe.com/rltoken/UTjDgvKk5l892Xslh0vqcQ'>Throw/Try</a>
