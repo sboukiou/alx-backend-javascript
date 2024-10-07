@@ -1,7 +1,21 @@
 export default function getListStudents() {
-  arr = []
-  arr.push({ id: 1, firstName: 'Guillaume', location: 'San Francisco' })
-  arr.push({ id: 2, firstName: 'James', location: 'Columbia' })
-  arr.push({ id: 5, firstName: 'Serena', location: 'San Francisco' })
-  return arr
+  const o1 = {
+    id: 1,
+    firstName: 'Guillaume',
+    location: 'San Francisco',
+  };
+
+  const o2 = {
+    id: 2,
+    firstName: 'James',
+    location: 'Columbia',
+  };
+
+  const o3 = {
+    id: 5,
+    firstName: 'Serena',
+    location: 'San Francisco',
+  };
+
+  return [o1, o2, o3];
 }
