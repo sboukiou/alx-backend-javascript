@@ -1,3 +1,6 @@
-export default function getStudentsByLocation(city) {
-  return getListStudents().filter(elem, elem.city = city)
+export default function getStudentsByLocation(students, city) {
+  if (students instanceof(Array)) {
+    return students.filter((student) => student.location == city);
+  }
+  return [];
 }
