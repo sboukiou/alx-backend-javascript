@@ -1,12 +1,8 @@
 /* eslint-disable no-tabs */
 export default class Currency {
   constructor(code, name) {
-    this.code = code;
-    this.name = name;
-  }
-
-  get code() {
-    return this._code;
+    this._code = code;
+    this._name = name;
   }
 
   set code(code) {
@@ -17,8 +13,8 @@ export default class Currency {
     }
   }
 
-  get name() {
-    return this._name;
+  get code() {
+    return this._code;
   }
 
   set name(name) {
@@ -29,7 +25,11 @@ export default class Currency {
     }
   }
 
+  get name() {
+    return this._name;
+  }
+
   displayFullCurrency() {
-    return `${this._name}(${this._code})`;
+    return `${this._name} (${this._code})`;
   }
 }
