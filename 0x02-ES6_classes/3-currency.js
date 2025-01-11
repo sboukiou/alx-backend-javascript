@@ -1,35 +1,31 @@
-/* eslint-disable no-tabs */
 export default class Currency {
   constructor(code, name) {
-    this._code = code;
-    this._name = name;
-  }
-
-  set code(code) {
-    if (code instanceof String) {
-      this._code = code;
-    } else {
-      throw new TypeError('Code must be a String');
-    }
+    this.code = code;
+    this.name = name;
   }
 
   get code() {
     return this._code;
   }
 
-  set name(name) {
-    if (name instanceof String) {
-      this._name = name;
-    } else {
-      throw new TypeError('Name must be a String');
-    }
-  }
-
   get name() {
     return this._name;
+  }
+
+  set code(value) {
+    this._code = value;
+  }
+
+  set name(value) {
+    this._name = value;
   }
 
   displayFullCurrency() {
     return `${this._name} (${this._code})`;
   }
 }
+
+// const dollar = new Currency('$', 'Dollar');
+
+// console.log(dollar);
+// console.log(dollar.displayFullCurrency());
